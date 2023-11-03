@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B4192A52AF52C1C0035AB76 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4192A42AF52C1C0035AB76 /* CircleButtonView.swift */; };
 		3B4A3BAF2AF527360054E2D6 /* Stop_WacthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A3BAE2AF527360054E2D6 /* Stop_WacthApp.swift */; };
 		3B4A3BB12AF527360054E2D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A3BB02AF527360054E2D6 /* ContentView.swift */; };
 		3B4A3BB32AF527370054E2D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4A3BB22AF527370054E2D6 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B4192A42AF52C1C0035AB76 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		3B4A3BAB2AF527360054E2D6 /* Stop Wacth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stop Wacth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4A3BAE2AF527360054E2D6 /* Stop_WacthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop_WacthApp.swift; sourceTree = "<group>"; };
 		3B4A3BB02AF527360054E2D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 				3B4A3BB02AF527360054E2D6 /* ContentView.swift */,
 				3B4A3BB22AF527370054E2D6 /* Assets.xcassets */,
 				3B4A3BB42AF527370054E2D6 /* Preview Content */,
+				3B4192A42AF52C1C0035AB76 /* CircleButtonView.swift */,
 			);
 			path = "Stop Wacth";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B4192A52AF52C1C0035AB76 /* CircleButtonView.swift in Sources */,
 				3B4A3BB12AF527360054E2D6 /* ContentView.swift in Sources */,
 				3B4A3BAF2AF527360054E2D6 /* Stop_WacthApp.swift in Sources */,
 			);
