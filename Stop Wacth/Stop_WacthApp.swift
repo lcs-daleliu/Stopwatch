@@ -13,31 +13,36 @@ struct Stop_WacthApp: App {
         WindowGroup {
             ContentView()
             TabView{
-                
-                Text("World Clock")
-                    .tabItem {
-                        Image(systemName: "globe")
-                        Text("World Clock")
-                    }
-                
-                Text("Alarm")
-                    .tabItem {
-                        Image(systemName: "alarm.fill")
-                        Text("Alarm")
-                    }
-                
-                ContentView()
-                    .tabItem{
-                        Image(systemName: "stopwatch.fill")
-                        Text("Stopwatch")
-                    }
-                
-                Text("Timer")
-                    .tabItem{
-                        Image(systemName: "timer")
-                        Text("Timer")
-                    }
-                
+                TabView(selection: Binding.constant(3)){
+                    
+                    Text("World Clock")
+                        .tabItem {
+                            Image(systemName: "globe")
+                            Text("World Clock")
+                        }
+                        .tag(1)
+                    
+                    Text("Alarm")
+                        .tabItem {
+                            Image(systemName: "alarm.fill")
+                            Text("Alarm")
+                        }
+                        .tag(2)
+                    
+                    ContentView()
+                        .tabItem{
+                            Image(systemName: "stopwatch.fill")
+                            Text("Stopwatch")
+                        }
+                        .tag(3)
+                    
+                    Text("Timer")
+                        .tabItem{
+                            Image(systemName: "timer")
+                            Text("Timer")
+                        }
+                        .tag(4)
+                }
             }
         // Change the accent color for the currently active tab item
         .accentColor(.orange)
