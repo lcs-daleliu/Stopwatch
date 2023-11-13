@@ -11,7 +11,6 @@ import SwiftUI
 struct Stop_WacthApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
             TabView{
                 TabView(selection: Binding.constant(3)){
                     
